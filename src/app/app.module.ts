@@ -11,6 +11,8 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { LoginPage } from '../pages/login/login';
+import { MapPage } from '../pages/map/map';
+import { ProfilPage } from '../pages/profil/profil';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { LoginPage } from '../pages/login/login';
     ContactPage,
     HomePage,
     TabsPage,
-    LoginPage
+    LoginPage,
+    MapPage,
+    ProfilPage
   ],
   imports: [
     BrowserModule,
@@ -32,7 +36,9 @@ import { LoginPage } from '../pages/login/login';
     ContactPage,
     HomePage,
     TabsPage,
-    LoginPage
+    LoginPage,
+    MapPage,
+    ProfilPage
   ],
   providers: [
     StatusBar,
